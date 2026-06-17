@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class CinemaSistema {
+public class Main {
     static double valorIngresso;
     static int linhas, colunas;
 
@@ -409,8 +409,7 @@ public class CinemaSistema {
     }
 
     static void integrantes() {
-        System.out.println("Integrante 1");
-        System.out.println("Integrante 2");
-        System.out.println("Integrante 3");
+        System.out.println("Bruno Nunes");
+        System.out.println("Leonardo Falcão");
     }
 }
