@@ -17,3 +17,16 @@ bb = b;         // bb passa a apontar para o mesmo objeto que b
 bb.m3();        // chama m3() de X no objeto B
 
 a.m4();         // Dá um erro pois não existe
+
+public class Animal {
+    public void emitirSom() {
+        System.out.println("Som genérico de animal");
+    }
+}
+
+public class Cachorro extends Animal {
+    @Override
+    public void emitirSom() {
+        System.out.println("Au au!");
+    }
+}
